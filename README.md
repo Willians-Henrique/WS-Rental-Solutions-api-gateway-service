@@ -1,0 +1,1 @@
+# WS-Rental-Solutions-api-gateway-service
