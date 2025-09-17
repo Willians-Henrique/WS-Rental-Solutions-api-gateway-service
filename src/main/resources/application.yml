@@ -16,7 +16,7 @@ spring:
                 - PreserveHostHeader
 
             - id: person-service
-              uri: http://localhost:8082
+              uri: http://backend-person-service-ws-solutions:8080
               predicates:
                 - Path=/person/**
               filters:
