@@ -22,3 +22,11 @@ spring:
               filters:
                 - RemoveRequestHeader=Cookie
                 - PreserveHostHeader
+
+            - id: property-service
+              uri: http://backend-property-service-ws-solutions:8080
+              predicates:
+                - Path=/property/**
+              filters:
+                - RemoveRequestHeader=Cookie
+                - PreserveHostHeader
